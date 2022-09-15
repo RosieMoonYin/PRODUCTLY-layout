@@ -20,37 +20,36 @@
         </div>
 
         
-        <ul class="nobull">
-                <div class="nav__listitem item1"><li>Product</li></div>
-                <div class="nav__listitem item2"><li>Customers</li></div>
-                <div class="nav__listitem item3"><li>Pricing</li></div>
-                <div class="nav__listitem item4"><li>Resources</li></div>
+        <ul class="nav__listitem nav__listitem--nobull">
+                <div class="nav__listitem item--1"><li>Product</li></div>
+                <div class="nav__listitem item--2"><li>Customers</li></div>
+                <div class="nav__listitem item--3"><li>Pricing</li></div>
+                <div class="nav__listitem item--4"><li>Resources</li></div>
         </ul>
         
-            <button class="button1">Sign In</button>
-            <button class="button2">Sign Up</button>
+            <button class="nav__listitem nav__listitem--button1">Sign In</button>
+            <button class="nav__listitem nav__listitem--button2">Sign Up</button>
         </div>
     </div>
 </nav>
 
 
+<header class="section1">
+    <div class="section1__container">
+        <div class="section1__flexitem section1__flexitem--text">
+            <h1 class="section1__flexitem section1__flexitem--h1"><strong>The Design Thinking superpowers</strong></h1>
 
+            <p class="section1__flexitem section1__flexitem--p1">Tools, tutorials, design and innovation experts, 
+                all in one place! The most intuitive way to imagine 
+                your next user experience.<br></p>
+        
+            <button class="section1__flexitem section1__flexitem--button1">Get started</button>
+            <button class="section1__flexitem section1__flexitem--button2">Watch the video!</button>
+        </div>
 
-<header class="firstsection">
-    <div class="leftside">
-        <h1 class="h1"><strong>The Design Thinking superpowers</strong></h1>
-
-        <p class="paragraph1">Tools, tutorials, design and innovation experts, 
-            all in one place! The most intuitive way to imagine 
-            your next user experience.<br></p>
-
-        <button class="firstsectionbutton">Get started</button>
-        <div class="firstsectionbutton2"><a href="#">Watch the video!</a></div>
-    </div>
-
-
-    <div class="rightside"> 
-        <img src="images/Header-3people.jpg" alt="three people jumping" title = "header image">
+        <div class="section1__flexitemB section1__flexitemB--img"> 
+            <img src="images/Header-3people.jpg" alt="three people jumping" title = "header image">
+        </div>
     </div>
 </header>
 
@@ -58,38 +57,39 @@
 <main>
     <section class="feature">
     
-        <div class="featureheading"><h4>We design tools to unveil your superpowers
-        </h4>
+        <div class="feature__heading"><h4>We design tools to unveil your superpowers</h4>
         </div>
         
-        <div class="featurecard">
-            <div class="card1">
-                <img src ="images/icon-1.png">
-                <h6>First click tests</h6>
-                <p>While most people enjoy casino gambling,</p>
+        <div class="feature__cards">
+            <div>
+                <img class="feature__cards feature__cards--img" src ="images/icon-1.png">
+                <h6 class="feature__cards feature__cards--h6">First click tests</h6>
+                <p class="feature__cards feature__cards--p">While most people enjoy casino gambling,</p>
 
             </div>
 
-            <div class ="card2">
+            <div>
                 <img src="images/icon-2.png">
-                <h6>Design Surveys</h6>
-                <p>Sports betting, lottery and bingo playing for the fun.</p>
+                <h6 class="feature__cards feature__cards--h6">Design Surveys</h6>
+                <p class="feature__cards feature__cards--p">Sports betting, lottery and bingo playing for the fun.</p>
             </div>
 
-            <div class="card3">
+            <div>
                 <img src="images/icon-3.jpg">
-                <h6>Preference Tests</h6>
-                <p>The Myspace page defines the individual.</p>
-            </div>
-            <div class="card4">
-                <img src="images/icon-4.jpg">
-                <h6>Five Second Tests</h6>
-                <p>Personal choices and the overall personality of the person.</p>
+                <h6 class="feature__cards feature__cards--h6">Preference Tests</h6>
+                <p class="feature__cards feature__cards--p">The Myspace page defines the individual.</p>
             </div>
             <div>
-                <button class="featurebutton">Sign up now</button>
+                <img src="images/icon-4.jpg">
+                <h6 class="feature__cards feature__cards--h6">Five Second Tests</h6>
+                <p class="feature__cards feature__cards--p">Personal choices and the overall personality of the person.</p>
             </div>
         </div>
+            
+        <div>
+                <button class="feature__button feature__button--styles">Sign up now</button>
+        </div>
+    
         
     </section>
 
@@ -189,27 +189,27 @@
 </main>
 
 <footer class="footer">
-    <div class="logofoot">
+    <div class="footer__img">
         <img src= "images/Logo-navbar.jpg">
     </div>
-    <div class="footertext">
-        <ul class="footertext">
+    <div class="footer__text1">
+        <ul class="footer__text--style">
             <li>About us</li>
             <li>Blog</li>
             <li>Contact</li>
             <li>FAQ<li>
         </ul>
     </div>
-    <div class="footertext">
-        <ul class="footertext">
+    <div class="footer__text2">
+        <ul class="footer__text--style">
             <li>Disclaimer</li>
             <li>Financing</li>
             <li>Privacy Policy</li>
             <li>Terms of Service</li>
         </ul>
     </div>
-    <div>
-        <button class="footerbutton">Sign up Now</button>
+    <div class="footer__button">
+        <button class="footer__button--styles">Sign up Now</button>
     </div>
 
 </footer>
